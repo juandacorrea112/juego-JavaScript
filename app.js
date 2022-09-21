@@ -21,6 +21,7 @@ function restarTiempo() {
     document.getElementById("tiempo").innerHTML = "&nbsp;&nbsp;&nbsp;Tiempo Restante: "+tiempo;
     if (tiempo == 0) {
         alert("perdiste manito, actualiza para volver a jugar ");
+        document.write("<h1> perdiste. Actualiza para intentalo otra vez</h1>");
     }
 }
 
